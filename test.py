@@ -5,6 +5,8 @@ Type "help", "copyright", "credits" or "license()" for more information.
 #To bedzie plik na ktorym bedziemy pracowali z repo
 def hello(name):
 	return "Hello" + str(name)
+def odejmij(a,b):
+	return a-b
 print("Hello world")
 def dodaj(a,b):
 	wynik = float(a) + float(b)
