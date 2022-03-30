@@ -6,6 +6,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 def hello(name):
 	return "Hello" + str(name)
 def odejmij(a,b):
+	wynik = float(a) + float(b)
 	return a-b
 print("Hello world")
 def dodaj(a,b):
